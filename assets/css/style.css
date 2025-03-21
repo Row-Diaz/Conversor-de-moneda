@@ -1,0 +1,45 @@
+body{
+display: flex;
+justify-content: center;
+height: 50vh;
+
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+
+.conversor{
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 5px;
+    width: 50%;
+    height: 70%;
+}
+
+.amount{
+
+    width: 170px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+#currency{
+    width: 170px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
