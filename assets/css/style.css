@@ -1,64 +1,63 @@
-body{
-display: flex;
-align-items: center;
-justify-content: center;
-height: 50vh;
-margin-top: 5%;
-padding: 0;
-
-
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin-top: 5%;
+  padding: 0;
 }
-
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    width: 50%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 50%;
+  height: 100%vh;
 }
 
-.conversor{
-
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-    background-color: gray;
-    border-radius: 5px;
-    width: 50%;
-    height: 70%;
-    
+.conversor {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  background-color: gray;
+  border-radius: 5px;
+  width: 50%;
+  height: 50vh;
 }
 
-.amount{
-
-    width: 170px;
-    height: 25px;
-    text-align: center;
-    border-radius: 5px;
+.amount {
+  width: 170px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
 }
-#currency{
-    width: 170px;
-    height: 25px;
-    text-align: center;
-    border-radius: 5px;
-    
+#currency {
+  width: 170px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-.btnsearch{
-    background-color: aqua;
-    font-weight: bold;
-    width: 170px;
-    height: 30px;
-    text-align: center;
-    border-radius: 5px;
-    color:black;
+.btnsearch {
+  background-color: aqua;
+  font-weight: bold;
+  width: 170px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
 }
 
 button:hover {
-	background-color: #7192b6;
+  background-color: #7192b6;
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: green;
 }
